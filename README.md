@@ -20,7 +20,7 @@ Before we look at automating container security, let’s understand why security
 
 #### Properly addressing these security concerns should be the primary focus for integrating security into the pipeline
 
-* Critical Vulerablities: introduced uring the build phase, registraty and even in teh production environment
+* Critical Vulnerablities: introduced in the build phase, registry and even in the production environment
 
 * Security Breaks Pipeline: adding manual steps for security reviews can slow or even stop the continuous integration and release of new or updated applications
 
@@ -40,7 +40,7 @@ In this series we’ll take a detailed look at ten integration points which can 
 
 Container images should be scanned for vulnerabilities and compliance violations during the build phase so the build step can be stopped (failed) in order to force correction or remediation. Integration is made easy through plug-ins and extensions for popular tools such as Jenkins, CircleCI, Azure DevOps, Gitlab, Bamboo etc.
 
-2. ** Registry Scanning **
+2. **Registry Scanning**
 
 After images pass build-phase scanning, they are staged into registries and should also be scanned there. New vulnerabilities can be discovered or introduced after images are pushed to registries. Registry scan results can also be linked to Admission Controls (see #7 below) to prevent unauthorized or vulnerable images from being deployed.
 
@@ -80,7 +80,7 @@ Finally, automated alerting, response, and forensic capture can be initiated for
 <img src="./images/SecurityIssues.png" width="100%" height="100%" alt="Component Model"  class="inline"/>
 
 
-Now you are ready to dive into the deatils.  Again, this is an introduction to a 2 part-series:
+Now you are ready to dive into the details.  Again, this is an introduction to a 2 part-series:
 
 * [Automating Container Security Into the CI/CD Pipeline - DEVOPS Point of View](https://github.ibm.com/ibm-developer-eti-ai-analytics/TenStepstoAutomateContainerSecurity-Pt1)
 
@@ -88,7 +88,7 @@ Now you are ready to dive into the deatils.  Again, this is an introduction to a
 
 Want to learn more?
 
-<Add RELATED CONTENT>
+**Add RELATED CONTENT**
 
 
 
